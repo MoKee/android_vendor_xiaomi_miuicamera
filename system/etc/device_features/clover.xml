@@ -113,11 +113,11 @@
     <!--whether support record location in camera-->
     <bool name="support_camera_record_location">true</bool>
     <!--whether support time watermark in camera-->
-    <bool name="support_camera_water_mark">true</bool>
+    <bool name="support_camera_water_mark">false</bool>
     <!--whether support new style time watermark in camera-->
-    <bool name="support_camera_new_style_time_water_mark">true</bool>
+    <bool name="support_camera_new_style_time_water_mark">false</bool>
     <!--whether support face info watermark in camera-->
-    <bool name="support_camera_face_info_water_mark">true</bool>
+    <bool name="support_camera_face_info_water_mark">false</bool>
     <!--whether support square mode in camera-->
     <bool name="support_camera_square_mode">true</bool>
     <!--whether support pause recording in camera-->
@@ -171,11 +171,11 @@
     <!--whether listen frame with single subthread looper in camera-->
     <bool name="is_camera_preview_with_subthread_looper">true</bool>
     <!--whether add watermark in camera app-->
-    <bool name="is_camera_app_water_mark">true</bool>
+    <bool name="is_camera_app_water_mark">false</bool>
     <!--whether support tiltshift  in camera-->
     <bool name="support_camera_tilt_shift">true</bool>
     <!--whether support magic mirror in camera-->
-    <bool name="support_camera_magic_mirror">false</bool>
+    <bool name="support_camera_magic_mirror">true</bool>
     <!--whether support groupshot mode  in camera-->
     <bool name="support_camera_groupshot">false</bool>
     <!--whether support snap with screen off  in camera-->
@@ -358,26 +358,25 @@
     <bool name="camera_supported_ai_scene">true</bool>
     <bool name="is_18x9_ratio_screen">true</bool>
     <!--whether support portrait in camera-->
-    <bool name="is_support_portrait">true</bool>
-    <!-- whether portrait is using qcom UDCF-Lite solution -->
-    <bool name="is_udcf_portrait">true</bool>
+    <bool name="is_support_portrait">false</bool>
     <!--whether taking legacy face beauty in camera-->
     <bool name="is_legacy_face_beauty">false</bool>
+    <!--whether front camera support hdr or not-->
+    <bool name="support_front_hdr">true</bool>
+　　<!--whether front camera support hht or not-->
+    <bool name="support_front_hht">true</bool>
+    <!--whether front camera support bokeh or not-->
+　  <bool name="support_front_bokeh">true</bool>
+    <!--whether support auto mirror in camera-->
     <!--whether support add watermark on bottom left of picture-->
-    <bool name="support_picture_watermark">true</bool>
+    <bool name="support_picture_watermark">false</bool>
     <!--whether enable face detection in video and funmode or not-->
     <bool name="support_camera_video_face_detection">true</bool>
     <!-- Camera HDR default value -->
     <integer name="support_camera_hdr_default_value">3</integer>
     <integer name="support_camera_front_hdr_default_value">3</integer>
     <!--whether camera support portrait mode switch -->
-    <bool name="camera_is_support_portrait_switch">true</bool>
-    <!--whether support square mode in camera-->
-    <bool name='support_camera_square_mode'>true</bool>
-    <!--whether support magic mirror in camera-->
-    <bool name='support_camera_magic_mirror'>true</bool>
-    <!-- whether camera supports paralell process -->
-    <bool name="support_parallel_process">true</bool>
+    <bool name="camera_is_support_portrait_switch">false</bool>
 	<!--camera max quality which support high frame rate,1:480 2:720 3:1080-->
     <integer name="support_camera_hfr_max_quality">3</integer>
     <!--whether support tele asd night in camera-->
